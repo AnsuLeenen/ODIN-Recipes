@@ -3,11 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
     <title>Lembas Bread Recipe</title>
+    <style>
+        body {
+            background-color: #322924;
+            color: white;
+        }
+    
+        .dropdown-btn {
+            background-color: gray;
+            color: black;
+            padding: 16px;
+            font-size: 20px;
+            border: none;
+        }
+    
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 150px;
+            box-shadow: 5px 16px 16px 8px rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+    
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+    
+        .dropdown-menu a:hover {
+            background-color: #cccccc;
+        }
+    
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
 </head>
 <body>
+    <div class="dropdown">
+        <button class="dropdown-btn">Recipes</button>
+        <div class="dropdown-menu">
+            <a href="../index.html">HOME</a>
+            <a href="../recipes/chocolate-salty-balls.html">Chocolate Salty Balls</a>
+            <a href="../recipes/lembas-bread.html">Lembas Bread</a>
+            <a href="../recipes/nuka-cola-quantum.html">Nuka Cola Quantum</a>
+            <a href="../recipes/tofutti.html">Tofutti</a>
+            <a href="../recipes/romulan-ale.html">Romulan Ale</a>
+        </div>
+        <img src="../images/lembas bread.jpeg" alt="Lembas Bread" width="500" height="600">
     <div id="recipe">
         <h1>Lembas Bread Recipe</h1>
+        <h2>Description</h2>
+        <p>
+            For those who don't know, lembas is a special bread made by the elves of the Lord of the Rings series. It's shaped
+            into thin cakes and because of its filling nature it's usually used for sustenance on long journeys. Generally
+            wrapped in Mallorn leaves, not much else is known about the ingredients. The bread is supposed to be brown on the
+            outside and cream colored on the inside, sort of like a flat bread, and tastier than most other cakes in
+            Middle-Earth. You can find a template for mallorn leaves and a alternate recipe here. These would probably make
+            great party hors d'oeuvres if you're nerdy enough to have a LoTR themed party. Which you probably are. Dork.
+        </p>
         <h2>Ingredients</h2>
         <ul>
             <li>3 eggs</li>

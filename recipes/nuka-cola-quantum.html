@@ -3,11 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
     <title>Nuka Cola Quantum Recipe</title>
+    <style>
+
+        body {
+            background-color: #131d2b;
+            color: white;
+        }
+
+        .dropdown-btn {
+            background-color: gray;
+	        color: black;
+	        padding: 16px;
+	        font-size: 20px;
+	        border: none;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-menu {
+            display: none;
+	        position: absolute;
+	        background-color: white;
+	        min-width: 150px;
+	        box-shadow: 5px 16px 16px 8px rgba(0,0,0,0.4);
+	        z-index: 1;
+        }
+
+        .dropdown-menu a {
+            color: black;
+	        padding: 12px 16px;
+	        text-decoration: none;
+	        display: block;
+        }
+
+	    .dropdown-menu a:hover {
+            background-color: #cccccc;
+        }
+
+	    .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+
+    </style>
 </head>
 <body>
+    <div class="dropdown">
+        <button class="dropdown-btn">Recipes</button>
+        <div class="dropdown-menu">
+            <a href="../index.html">HOME</a>  
+            <a href="../recipes/chocolate-salty-balls.html">Chocolate Salty Balls</a>
+            <a href="../recipes/lembas-bread.html">Lembas Bread</a>
+            <a href="../recipes/nuka-cola-quantum.html">Nuka Cola Quantum</a>
+            <a href="../recipes/tofutti.html">Tofutti</a>
+            <a href="../recipes/romulan-ale.html">Romulan Ale</a>
+        </div>
+    <img src="../images/nuka-cola-quantum.jpeg" alt="Nuka Cola Quantum" width="400" height="600">
     <div id="recipe">
         <h1>Nuka Cola Quantum Recipe</h1>
+        <h2>Description</h2>
+        <p>
+            Here's an oft requested video game soft drink for you, my beloved readers: Nuka Cola Quantum from Fallout 3. For those who don't know, Fallout is Bethesda's post apocalyptic RPG, taking a place in the USA after it's been destroyed by a nuclear war sometime in the 1950s.  In the alternate reality of Fallout, Nuka Cola was invented in 2044 and quickly became the most popular soft drink in the world. It's supposed to contain the essence of 17 different fruit essences which gives it it's unique and irresistible flavor. In addition to a super delicious and nutritious "mild radioactive strontium isotope," Nuka Cola's second version, Nuka Cola Quantum, contains an 18th fruit essence: pomegranate. Gotta tell you guys, it was a bit of a puzzle to figure out how to make a recipe for a glowing radioactive soda with entirely artificial flavoring. Luckily, I like me some puzzles. Hawaiian Punch and Sunny Delight (Blue Raspberry) also don't contain anything that occurs in nature and have a mixture of fruit-like flavors, so I thought these would work pretty well for the base. I made sure to include some pomegranate syrup to make it uniquely Quantum,  and the rest is pretty self explanatory. Prepare to increase your action points by 20, and radiation levels by ten!
+        </p>
         <h2>Supplies</h2>
         <ul>
             <li>Small LED light (optional)</li>

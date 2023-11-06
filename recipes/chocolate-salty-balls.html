@@ -4,12 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheet.css">
     <title>Chef's Chocolate Salty Balls Recipe</title>
+    <style>
+        body {
+            background-color: #564c57;
+            color: white
+        }
+    
+        .dropdown-btn {
+            background-color: gray;
+            color: black;
+            padding: 16px;
+            font-size: 20px;
+            border: none;
+        }
+    
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+    
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            min-width: 150px;
+            box-shadow: 5px 16px 16px 8px rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+    
+        .dropdown-menu a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+    
+        .dropdown-menu a:hover {
+            background-color: #cccccc;
+        }
+    
+        .dropdown:hover .dropdown-menu {
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="dropdown">
+        <button class="dropdown-btn">Recipes</button>
+        <div class="dropdown-menu">
+            <a href="../index.html">HOME</a>
+            <a href="../recipes/chocolate-salty-balls.html">Chocolate Salty Balls</a>
+            <a href="../recipes/lembas-bread.html">Lembas Bread</a>
+            <a href="../recipes/nuka-cola-quantum.html">Nuka Cola Quantum</a>
+            <a href="../recipes/tofutti.html">Tofutti</a>
+            <a href="../recipes/romulan-ale.html">Romulan Ale</a>
+        </div>
+        <img src="../images/chocolate-salty-balls.jpeg" alt="Chocolate Salty Balls" width="500" height="500">
     <div id="recipe">
         <h1>Chef's Chocolate Salty Balls Recipe</h1>
+        <h2>Description</h2>
+        <p>
+            I have always tried to keep this blog kid-friendly, but this is one of those things I just can't avoid forever. In
+            honor of Isaac Hayes, I decided to create a Chocolate Salty Balls recipe using the ingredients from the song. I
+            apologize in advance for any offense. Parents, please forgive me, and avert your children's eyes if you must. If
+            you've been doing your job your kid won't get the joke anyway. South Park has always been a very controversial show,
+            with topics that range from offensive to just plain disgusting. But, unlike many other similar television cartoon
+            shows (I won't name which) it actually always has something to say, though the message may not be agreeable for
+            everyone. Throughout it's 17 seasons the show has slowly evolved from a silly immature cartoon into a genuine
+            satire, with honest and occasionally virtuous messages imbedded amongst the crude humor. Additional to decent
+            writing, it has won the respect of many nerds everywhere with detailed references to such geeky things as World of
+            Warcraft, Batman and Star Trek. One week from today is the three year anniversary of the death of Isaac Hayes, a
+            talented and influential soul singer, and the man who voiced the beloved South Park character called Chef. Chef was
+            the portly and promiscuous cafeteria cook for the first 10 seasons of the show. As one one of the more kind and
+            down-to-earth characters, his advice was often sought by the four protagonists... though his advice generally
+            manifested itself in totally inappropriate and non-relevant soul songs. The recipe I have for you today comes from
+            one of those comedic misguided soul songs, probably the most popular song from the show, titled "Chocolate Salty
+            Balls." You can listen here, or read here, but I warn you it's totally NSFW (or for the squeamish, or easily
+            offended, OR children). The song basically describes a recipe for a salty spherical pastry to um, well... to suck
+            on. Despite the obvious metaphor here, I thought a salty chocolate pastry sounded pretty darn good... and guess
+            what? I was right! Chef's balls are delicious!
+        </p>
         <h2>Ingredients</h2>
         <ul>
             <li>2/3 cup salted butter</li>
